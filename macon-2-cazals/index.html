@@ -1,83 +1,24 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cazals Bâtiment — Maçonnerie à Mazamet (Tarn)</title>
-<meta name="description" content="Entreprise de maçonnerie à Mazamet : extension, façade, dalle. Devis gratuit.">
-<meta name="robots" content="noindex, nofollow">
-<style>
-:root{--bg:#f7f7f5;--ink:#14213d;--muted:#5a6275;--accent:#f2b705;--accent-d:#c99700;--soft:#e9ebf0;--dark:#14213d;--font:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;--head:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:70px}
-body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.65}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;display:block}
-.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
-header{position:sticky;top:0;z-index:20;background:var(--dark);color:#fff}
-.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
-.brand{font-family:var(--head);font-weight:700;font-size:20px;letter-spacing:.3px}
-.brand b{color:var(--accent)}
-.links{display:flex;gap:22px;align-items:center;font-size:14.5px}
-.links a:hover{color:var(--accent)}
-.btn{display:inline-block;background:var(--accent);color:#14213d;padding:13px 24px;border-radius:2px;font-weight:700;border:2px solid var(--accent);font-size:15px}
-.btn:hover{background:var(--accent-d);border-color:var(--accent-d)}
-.btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
-.btn.ghost:hover{background:#fff;color:var(--dark)}
-.links .btn{padding:9px 16px;font-size:14px}
-.hero{background:linear-gradient(120deg,#14213d,#22345f);color:#fff;padding:90px 0 80px}.hero h1{font-family:var(--head);font-size:clamp(30px,4.6vw,48px);line-height:1.15;max-width:700px;margin-bottom:16px}.hero p{max-width:560px;font-size:18px;color:#e2e2e2;margin-bottom:26px}.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
-section{padding:70px 0}
-.eyebrow{color:var(--accent-d);font-weight:700;font-size:12.5px;letter-spacing:1.4px;text-transform:uppercase;display:block;margin-bottom:6px}
-h2{font-family:var(--head);font-size:clamp(26px,3.4vw,36px);line-height:1.2;margin-bottom:10px}
-.lead{color:var(--muted);max-width:620px;margin-bottom:34px}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:#fff;border:1px solid var(--soft);border-radius:2px;padding:24px}
-.card h3{font-family:var(--head);font-size:18px;margin-bottom:6px}
-.card p{color:var(--muted);font-size:15px}
-.card .n{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--accent);color:#14213d;font-weight:800;margin-bottom:12px}
-.band{background:var(--soft)}
-.why{display:grid;grid-template-columns:1fr 1fr;gap:18px 40px}
-.why div{padding-left:30px;position:relative}
-.why div::before{content:"✓";position:absolute;left:0;color:var(--accent-d);font-weight:800}
-.why b{display:block}
-.why span{color:var(--muted);font-size:15px}
-.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.gal figure{overflow:hidden;border-radius:2px;background:var(--soft);aspect-ratio:4/3;position:relative}
-.gal img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
-.gal figure:hover img{transform:scale(1.05)}
-.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 10px;color:#fff;font-size:14px;font-weight:600;background:linear-gradient(transparent,rgba(0,0,0,.65))}
-.credit{font-size:12.5px;color:var(--muted);margin-top:14px}
-.credit a{text-decoration:underline}
-.contact{display:grid;grid-template-columns:1fr 1.1fr;gap:34px;background:#fff;border-radius:2px;padding:34px;border:1px solid var(--soft)}
-.contact p{color:var(--muted);margin-bottom:12px}
-.contact strong{color:var(--ink)}
-label{display:block;font-size:13px;font-weight:700;margin:0 0 5px}
-input,textarea{width:100%;padding:11px 12px;border:1.5px solid #d8d4cc;border-radius:2px;font:inherit;margin-bottom:12px;background:#fff}
-textarea{min-height:100px;resize:vertical}
-button.btn{cursor:pointer;font:inherit;font-weight:700}
-footer{background:var(--dark);color:#c9c9c9;padding:28px 0;font-size:14px}
-footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.msg{margin-top:10px;font-weight:600;color:#2b7a4b;display:none}
-@media(max-width:860px){.cards,.gal{grid-template-columns:repeat(2,1fr)}.why,.contact{grid-template-columns:1fr}.links a:not(.btn){display:none}}
-@media(max-width:560px){.cards,.gal{grid-template-columns:1fr}section{padding:52px 0}}
-</style>
-</head>
-<body>
-<header><div class="wrap nav"><a class="brand" href="#top">CAZALS <b>BÂTIMENT</b></a><nav class="links"><a href="#services">Services</a><a href="#contact" class="btn">Devis gratuit</a></nav></div></header>
-<main id="top">
-<section class="hero" style="padding-bottom:80px"><div class="wrap"><span class="eyebrow" style="color:#f2b705">Entreprise de maçonnerie · Mazamet</span><h1>Votre chantier, du devis à la clé en main.</h1><p>Extension, façade, dalle : un seul interlocuteur et un planning que l'on tient.</p><div class="cta"><a class="btn" href="#contact">Demander un devis gratuit</a><a class="btn ghost" href="tel:+33563003344">05 63 00 33 44</a></div></div></section>
-<section id="services"><div class="wrap"><span class="eyebrow">Nos services</span><h2>Notre façon de travailler</h2><p class="lead">Quatre étapes, aucune zone d'ombre.</p>
-<div class="cards"><div class="card"><span class="n">1</span><h3>On écoute</h3><p>Vous décrivez le projet, nous venons voir sur place.</p></div><div class="card"><span class="n">2</span><h3>On chiffre</h3><p>Devis détaillé, ligne par ligne, sous 48 h.</p></div><div class="card"><span class="n">3</span><h3>On construit</h3><p>Équipe qualifiée, chantier propre et suivi.</p></div><div class="card"><span class="n">4</span><h3>On livre</h3><p>Visite finale ensemble et remise des garanties.</p></div></div></div></section>
-<section class="band"><div class="wrap"><span class="eyebrow">Pourquoi nous</span><h2>Pourquoi nous confier votre chantier</h2><br><div class="why"><div><b>Artisan local</b><span>Basé à Mazamet, intervient dans tout le secteur.</span></div><div><b>Garantie décennale</b><span>Attestation jointe à chaque devis.</span></div><div><b>Prix transparent</b><span>Aucune surprise sur la facture.</span></div><div><b>Réactif</b><span>Rappel le jour même en semaine.</span></div></div></div></section>
-
-<section id="contact"><div class="wrap"><div class="contact">
-<div><span class="eyebrow">Contact</span><h2>Parlons de votre projet</h2><p>Décrivez vos travaux, nous vous répondons sous 48 h avec un devis gratuit.</p><p><strong>Téléphone</strong><br>05 63 00 33 44</p><p><strong>E-mail</strong><br>contact@cazals-batiment.fr</p><p><strong>Zone</strong><br>Mazamet, Castres, Labruguière</p></div>
-<form id="f"><label for="n">Nom</label><input id="n" required><label for="t">Téléphone</label><input id="t" type="tel" required><label for="m">Votre projet</label><textarea id="m" required placeholder="Type de travaux, commune, délai souhaité…"></textarea><button class="btn" type="submit">Envoyer ma demande</button><p class="msg" id="ok">Merci ! Votre application e-mail s'ouvre avec votre demande (mode démo).</p></form>
-</div></div></section>
-</main>
-<footer><div class="wrap"><span><b>Cazals Bâtiment</b> · Mazamet (81)</span><span>Site de démonstration réalisé par Elodie, Studio Code. Nom et coordonnées fictifs.</span></div></footer>
-<script>
-document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();var b='Nom : '+n.value+'\nTéléphone : '+t.value+'\n\n'+m.value;document.getElementById('ok').style.display='block';location.href='mailto:contact@cazals-batiment.fr?subject='+encodeURIComponent('Demande de devis')+'&body='+encodeURIComponent(b)});
-</script>
-</body>
-</html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cazals Bâtiment — Maçonnerie à Mazamet (Tarn)</title><meta name="description" content="Entreprise de maçonnerie à Mazamet : extension, façade, dalle. Devis gratuit."><meta name="robots" content="noindex, nofollow"><style>*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}input,textarea{width:100%;padding:12px;font:inherit;margin-bottom:12px}label{display:block;font-size:13px;font-weight:700;margin-bottom:4px}textarea{min-height:100px}button{cursor:pointer;font:inherit;font-weight:700;border:0;padding:14px 26px}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:#0e1a33;color:#e8eefc;line-height:1.6}
+.c{max-width:1100px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.logo{font-weight:800;letter-spacing:3px;font-size:17px}.logo i{font-style:normal;color:#7fb6ff}
+.nb{border:1.5px solid #7fb6ff;color:#7fb6ff;padding:9px 18px;font-weight:700;font-size:14px}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:50px;align-items:center;padding:70px 0 90px}
+h1{font-size:clamp(36px,5.2vw,62px);line-height:1.05;font-weight:800}h1 em{font-style:normal;color:#7fb6ff}
+.hero p{margin:20px 0 28px;color:#b8c6e6;font-size:18px;max-width:480px}
+.b1{display:inline-block;background:#7fb6ff;color:#0e1a33;padding:14px 26px;font-weight:800}
+.card{background:#16264a;border:1px solid #2a3d6b;padding:30px}.card b{display:block;font-size:44px;color:#7fb6ff;line-height:1}.card div+div{margin-top:22px;padding-top:22px;border-top:1px solid #2a3d6b}.card span{color:#b8c6e6;font-size:14.5px}
+.steps{background:#f3f6fc;color:#0e1a33;padding:90px 0}.steps h2{font-size:clamp(28px,4vw,40px);margin-bottom:40px}
+.row{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:3px solid #0e1a33}
+.st{padding:24px 22px 10px 0}.st i{font-style:normal;font-size:64px;font-weight:800;color:#c5d6f2;line-height:1}.st h3{margin:8px 0 6px}.st p{color:#4d5b78;font-size:15px}
+.ct{padding:90px 0}.ct .g{display:grid;grid-template-columns:1fr 1fr;gap:50px}.ct h2{font-size:36px;margin-bottom:14px}.ct p{color:#b8c6e6;margin-bottom:10px}
+input,textarea{background:#16264a;border:1px solid #2a3d6b;color:#fff}.send{background:#7fb6ff;color:#0e1a33}
+footer{padding:26px 0;border-top:1px solid #2a3d6b;font-size:13px;color:#8a99bd}
+@media(max-width:820px){.hero,.ct .g{grid-template-columns:1fr}.row{grid-template-columns:1fr 1fr}}</style></head><body><div class="c"><nav><span class="logo">CAZALS <i>BÂTIMENT</i></span><a class="nb" href="#contact">Devis gratuit</a></nav>
+<section class="hero"><div><h1>Votre chantier, <em>du devis à la clé en main.</em></h1><p>Extension, façade, dalle : un seul interlocuteur et un planning que l'on tient. Entreprise de maçonnerie à Mazamet.</p><a class="b1" href="#contact">Parler de mon projet</a></div>
+<div class="card"><div><b>48 h</b><span>pour recevoir votre devis détaillé</span></div><div><b>10 ans</b><span>de garantie décennale</span></div><div><b>1</b><span>seul interlocuteur du début à la fin</span></div></div></section></div>
+<section class="steps"><div class="c"><h2>Quatre étapes, aucune zone d'ombre</h2><div class="row"><div class="st"><i>01</i><h3>On écoute</h3><p>Vous décrivez le projet, nous venons sur place.</p></div><div class="st"><i>02</i><h3>On chiffre</h3><p>Devis détaillé, ligne par ligne.</p></div><div class="st"><i>03</i><h3>On construit</h3><p>Équipe qualifiée, chantier propre et suivi.</p></div><div class="st"><i>04</i><h3>On livre</h3><p>Visite finale et remise des garanties.</p></div></div></div></section>
+<section class="ct" id="contact"><div class="c g"><div><h2>Parlons de votre projet</h2><p>Mazamet, Castres, Labruguière</p><p>05 63 00 33 44</p><p>contact@cazals-batiment.fr</p></div><div><form id="f"><label for="n">Nom</label><input id="n" required><label for="t">Téléphone</label><input id="t" type="tel" required><label for="m">Votre projet</label><textarea id="m" required placeholder="Type de travaux, commune, délai souhaité…"></textarea><button class="send" type="submit">Envoyer ma demande</button><p id="ok" style="display:none;margin-top:10px;font-weight:600">Merci ! Votre application e-mail s'ouvre avec votre demande (mode démo).</p></form>
+<script>document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();var b='Nom : '+n.value+'\nTéléphone : '+t.value+'\n\n'+m.value;document.getElementById('ok').style.display='block';location.href='mailto:contact@cazals-batiment.fr?subject='+encodeURIComponent('Demande de devis')+'&body='+encodeURIComponent(b)});</script></div></div></section>
+<footer><div class="c">Cazals Bâtiment, Mazamet (81). Démo réalisée par Elodie, Studio Code. Nom et coordonnées fictifs.</div></footer></body></html>
